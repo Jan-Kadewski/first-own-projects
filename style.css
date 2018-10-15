@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-logo {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    color: #262626;
+    list-style: none;
+    margin-right: 360px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #262626;
+
+}
+
+.menu-item {
+    text-transform: uppercase;
+    line-height: 25px;
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    padding-top: 10px;
+    border-top: 3px solid orangered;
+}
+
+.text-box-header {
+    position: absolute;
+    width: 500px;
+    height: 10vh;
+    left: 20%;
+    top: 40%;
+}
+
+.title-box-header {
+    font-weight: 900;
+    font-size: 55px;
+    opacity: 0.8;
+}
+
+.sub-text-header {
+    font-weight: normal;
+    line-height: 1.5;
+    opacity: .8;
+    margin: 10px 0 10px 0;
+}
+
+.button-header {
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: orangered;
+    transition: all 0.4s;
+}
+
+.button-header:hover {
+    opacity: .8;
+    cursor: pointer;
+
+}
+
+/* ************************************************************/
+
+.container-about-us {
+    height: 70vh;
+    width: 100%;
+    background-image: radial-gradient(circle at 0 0, #00c4c4, #00b7b7 32%, #00adad 68%, #009c9c), linear-gradient(#00c4c4, #00c4c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.image-about-us {
+    border-style: none;
+    max-height: 60vh;
+    flex-basis: 50%;
+
+}
+
+.text-container-about-us {
+    margin-left: 20px;
+    max-height: 30vh;
+    flex-basis: 25%;
+}
+
+.title-box-about-us {
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.sub-text-about-me {
+    margin: 20px 0 20px 0;
+    line-height: 1.6;
+    opacity: .7;
+}
+/****************************************************/
+.our-Services {
+    height: 70vh;
+    width: 100%;
+    background-color: #70bfff;
+    position: relative;
+
+}
+
+.image-our-services {
+    max-height: 40vh;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    z-index: 2;
+}
+
+.text-on-tomatoes {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    font-size: 75px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.block-menu {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    display: inline-block;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.menu-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 20px;
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 20px;
+    max-height: 50%;
+}
+
+.text-block-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+    opacity: .9;
+
+}
+
+.icon-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    min-width: 100px;
+    border-left: 1px solid #9d9d9d;
+}
+
+.fas {
+    font-size: 40px;
+    opacity: .8;
+}
+/*************************************************/
+.gallery {
+    height: 150vh;
+    width: 100%;
+    background-color: #ffe92f;
+
+}
+
+.container-images-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 300px 0 300px;
+}
+
+.text-container-gallery {
+    text-align: center;
+    width: 576px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 80px;
+    opacity: .9;
+
+}
+
+.sub-title-gallery {
+    line-height: 27px;
+    opacity: .7;
+}
+
+.button-gallery {
+
+    height: 55px;
+    width: 200px;
+    line-height: 55px;
+    margin: 50px auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(85, 133, 162);
+    border: 1px solid rgb(85, 133, 162);
+    transition: .6s;
+}
+
+.button-gallery:hover {
+    cursor: pointer;
+    color: #262626;
+}
+/* ******************************************************************************/
+
+.subscribe-us {
+    height: 50vh;
+    width: 100%;
+    background-image: url("img/subscribe-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscrite-text-box {
+    padding: 180px 0 0 100px;
+    width: 650px;
+    height: 80px
+}
+
+.title-subscribe-text-box {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.email-subscribe-field {
+    padding: 10px;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.input-subscribe-box {
+    width: 1000px;
+}
+
+.btn-submit-subscribe {
+    width: 170px;
+    height: 55px;
+    background-color: rgb(150, 185, 44);
+    text-transform: uppercase;
+    color: #fff;
+}
+/*******************************************************************8*/
+.blog {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(176, 124, 247);
+}
+
+.text-box-blog {
+    margin: 0 auto;
+    text-align: center;
+    width: 540px;
+    height: 66px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.title-box-blog {
+    font-size: 70px;
+    padding: 50px;
+}
+
+.blog-images-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:200px;
+}
+
+.blog-image{
+    height:400px;
+    width:400px;
+
+}
+.imageblog1 {
+    background-image: url("img/blog3.png");
+    background-repeat: no-repeat;
+}
+
+.imageblog2 {
+
+    background-image: url("img/blog1.png");
+    background-repeat: no-repeat;
+}
+
+.imageblog3 {
+
+    background-image: url("img/blog2.png");
+    background-repeat: no-repeat;
+
+}
+.button-blog{
+    background-color:rgb(247,43,59);
+    text-transform: uppercase;
+    color:#fff;
+    height:50px;
+    width:150px;
+    text-align:center;
+    margin:0 auto;
+    line-height:50px;
+}
+/************************************************/
+.contact{
+    height:80vh;
+    width:100%;
+    background-image: url("img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.text-container-contact{
+    text-align:center;
+    width:350px;
+    padding-top:20px;
+    margin:0 auto;
+}
+.title-box-contact{
+    font-size:90px;
+    color:#262626;
+}
+.subtitle-text-contact{
+    opacity:0.8;
+}
+
+.contact-content-box{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:50px 200px 50px 150px;
+
+}
+.contact-input{
+    margin:10px;
+    width:500px;
+    height:50px;
+    background-color: rgba(0,196,196,0.5);
+    color:#fff;
+}
+.contact-input::placeholder{
+    color:#fff;
+    font-weight: 900;
+    font-size:16px;
+    opacity:1;
+}
+.contact-form input:nth-of-type(4) {
+    height:250px;
+    width:500px;
+}
+.contact-form input:nth-of-type(1){
+    background-color: #00c4c4;
+}
+
+.form-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    width:45%;
+
+}
+.contact-form{
+    display:flex;
+    justify-content:space-around;
+}
+.contact-data{
+    margin-right:150px;
+    line-height:35px;
+    opacity:.9;
+}
+.contact-h3{
+    text-transform: uppercase;
+    letter-spacing:.5px;
+}
+.footer{
+    height:12vh;
+    width:100%;
+    background-color: #262626;
+    color:#fff;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.footer-logo{
+    font-family: 'Pacifico', cursive;
+    font-size:25px;
+}
+.footer-love-span{
+    color:#ff2b58;
+    font-weight:bold;
+}
